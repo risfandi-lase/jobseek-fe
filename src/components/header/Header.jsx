@@ -1,4 +1,4 @@
-import style from "./header.module.css";
+import style from "./Header.module.css";
 import logo from "/src/assets/logo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
