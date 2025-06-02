@@ -1,4 +1,4 @@
-import style from "./workList.module.css";
+import style from "./WorkList.module.css";
 
 export default function WorkList({ jobList, selectedJob, setSelectedJob }) {
   return (

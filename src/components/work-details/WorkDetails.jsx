@@ -1,4 +1,4 @@
-import style from "./workDetails.module.css";
+import style from "./WorkDetails.module.css";
 import { CiMoneyBill } from "react-icons/ci";
 import { MdOutlinePlace } from "react-icons/md";
 import { LiaUniversitySolid } from "react-icons/lia";

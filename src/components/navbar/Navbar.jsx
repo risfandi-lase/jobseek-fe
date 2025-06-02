@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./navbar.module.css";
+import style from "./Navbar.module.css";
 
 export default function Navbar({ updateLocation, updateTitle, title, location }) {
 const [searchInput, setSearchInput] = useState('')

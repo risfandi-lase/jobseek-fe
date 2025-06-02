@@ -1,6 +1,6 @@
 import { useState } from "react";
 import WorkList from "../work-list/WorkList";
-import style from "./main.module.css";
+import style from "./Main.module.css";
 import { useEffect } from "react";
 import WorkDetails from "../work-details/WorkDetails";
 

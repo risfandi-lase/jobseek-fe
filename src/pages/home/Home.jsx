@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Navbar from "/src/components/navbar/navbar";
-import Main from "/src/components/main/main";
+import Navbar from "/src/components/navbar/Navbar";
+import Main from "/src/components/main/Main";
 
 
 export default function Home() {
