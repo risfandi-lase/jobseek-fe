@@ -1,0 +1,42 @@
+.container {
+  flex: 1;
+}
+.work-list {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  width: 100px;
+  min-width: 500px;
+  margin-left: auto;
+}
+
+.active  {
+  border: 2.9px solid #ffcc00 !important;
+}
+
+.container ul li {
+  border: 2px solid rgba(0, 0, 0, 0.219);
+  border-radius: 16px;
+  padding: 20px;
+  list-style: none;
+  cursor: pointer;
+  
+}
+
+.container ul  li:hover{
+    border: 2px solid #ffcc00 ;
+
+}
+
+.container .company{
+  margin-bottom: 16px;
+}
+
+.container p{
+  margin-bottom: 4px;
+}
+
+.container .listed{
+  margin-top: 12px;
+  color: rgba(0, 0, 0, 0.575);
+}

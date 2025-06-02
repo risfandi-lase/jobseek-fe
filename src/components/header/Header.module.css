@@ -1,0 +1,62 @@
+.left-side {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.left-side a,
+.right-side a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading a:hover {
+  border-bottom: 2px solid rgba(46, 46, 48, 0.192);
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid rgb(46, 46, 48);
+  cursor: pointer;
+}
+
+.right-side {
+  display: flex;
+  margin-left: auto;
+  gap: 18px;
+  font-size: 14px;
+  border: none;
+}
+
+.user{
+    margin-left: 6px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.heading {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 12px 0px;
+  width: 1200px;
+  max-width: 100%;
+}
+
+.logo img {
+  width: 36px;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+}

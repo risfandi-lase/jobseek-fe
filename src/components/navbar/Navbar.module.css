@@ -1,0 +1,33 @@
+.nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 46px;
+    gap: 50px;
+    background-image: url('/src/assets/navbar.jpg');
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.nav-box input{
+    padding: 8px;
+    border-radius: 4px;
+    width: 220px;
+    margin-top: 14px;
+}
+
+.nav-box button{
+    border: 1px solid black;
+    background-color: #FFCC00;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    margin-left: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.nav-box p{
+    color: white;
+    font-weight: 500;
+}
