@@ -1,4 +1,4 @@
-fetch('http://localhost:5000/jobs', {
+fetch('https://jobseek-be-5bpq.vercel.app/jobs', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'

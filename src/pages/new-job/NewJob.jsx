@@ -10,7 +10,7 @@ const handleSubmit = (e) => {
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
     console.log(data);
-    fetch('http://localhost:5000/jobs', {
+    fetch('https://jobseek-be-5bpq.vercel.app/jobs', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'

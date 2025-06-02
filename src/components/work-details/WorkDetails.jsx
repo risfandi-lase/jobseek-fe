@@ -20,7 +20,7 @@ export default function WorkDetails({ selectedJob, jobList}) {
       setIsLoading(true);
 
       const response = await fetch(
-        `http://localhost:5000/jobs/${selectedJob}/bookmark`,
+        `https://jobseek-be-5bpq.vercel.app/jobs/${selectedJob}/bookmark`,
         {
           method: "POST",
           headers: {

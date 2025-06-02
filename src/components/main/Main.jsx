@@ -11,7 +11,7 @@ export default function Main({ title, location}) {
   useEffect(() => {
     console.log('jhkjh')
     fetch(
-      `http://localhost:5000/jobs?title=${title}&location=${location}`
+      `https://jobseek-be-5bpq.vercel.app/jobs?title=${title}&location=${location}`
     )
       .then((res) => res.json())
       .then((data) => setData(data));
